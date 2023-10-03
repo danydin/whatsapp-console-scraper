@@ -1,4 +1,4 @@
-const elementsToScrape = document.querySelectorAll("._2h0YP");
+const elementsToScrape = document.querySelectorAll("._11JPr");
 const scrapedData = [];
 
 elementsToScrape.forEach((element) => {
@@ -23,4 +23,4 @@ link.click();
 
 document.body.removeChild(link);
 
-URL.revokeObjectURL(url);
+URL.revokeObjectURL(url);``
